@@ -87,3 +87,41 @@ nav {
 
 /*-------------------------------------------------------------------------------*/
 
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-info-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.info-item {
+  width: 150px;
+}
+
+.img-text {
+  text-align: center;
+}
+
+.item-img {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  border-color: #3882F6;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
